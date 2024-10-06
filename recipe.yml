@@ -35,6 +35,8 @@ stages:
     commands:
     - curl -sS https://webi.sh/shfmt | sh
     - curl -sS https://webi.sh/yq | sh
+    #- curl -sS https://webi.sh/kind | sh
+    #- curl -sS https://webi.sh/k9s | sh
 
   - name: kubectl
     type: shell
